@@ -4,7 +4,7 @@ from setuptools import setup
 import pkg_resources
 
 VERSION = "0.47.0"
-NAME = "websocket_client"
+NAME = "websocket_client2"
 
 install_requires = ["six"]
 tests_require = []
@@ -38,12 +38,12 @@ except Exception:
 setup(
     name=NAME,
     version=VERSION,
-    description="WebSocket client for python. hybi13 is supported.",
+    description="WebSocket client (2) for python. hybi13 is supported.",
     long_description=open("README.rst").read(),
     author="liris",
     author_email="liris.pp@gmail.com",
     license="LGPL",
-    url="https://github.com/websocket-client/websocket-client.git",
+    url="https://github.com/val-labs/websocket-client.git",
     classifiers=[
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",

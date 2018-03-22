@@ -290,6 +290,14 @@ class WebSocket(object):
             payload = payload.encode("utf-8")
         self.send(payload, ABNF.OPCODE_PONG)
 
+    def receive(self):
+        """
+        Receive string data(byte array) from the server.
+
+        return value: string(byte array) value.
+        """
+        return self.recv()
+
     def recv(self):
         """
         Receive string data(byte array) from the server.
